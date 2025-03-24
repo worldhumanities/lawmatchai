@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>法律智能问答</title>
+  </head>
+  <body>
+    <h1>你好，欢迎来到法律智能问答平台！</h1>
+    <p>这是一个测试页面，很快我们会接入 Chatbot 和律师匹配系统。</p>
+  </body>
+</html>
