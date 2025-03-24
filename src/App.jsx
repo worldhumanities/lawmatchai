@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.png';
 
 export default function App() {
   const [question, setQuestion] = useState('');
@@ -19,7 +18,6 @@ export default function App() {
     <div className="min-h-screen bg-gray-100 font-sans">
       <header className="bg-white shadow p-4 flex items-center justify-between px-8">
         <div className="flex items-center space-x-3">
-          <img src={logo} alt="LawMatchAI Logo" className="h-10" />
           <span className="text-2xl font-bold text-blue-800">LawMatchAI</span>
         </div>
         <nav className="text-sm space-x-4 text-gray-600">
@@ -34,8 +32,11 @@ export default function App() {
           <h1 className="text-4xl font-bold text-center text-blue-700 mb-4">
             Legal Help Starts Here
           </h1>
-          <p className="text-center text-gray-600 mb-8">
+          <p className="text-center text-gray-600 mb-4">
             Ask your legal question below and we’ll match you with the right lawyer.
+          </p>
+          <p className="text-center text-gray-600 mb-8 text-sm">
+            We monitor lawyer performance, offer financial assistance if needed, and help you access top-rated attorneys at the best possible rates.
           </p>
 
           <div className="mb-6">
@@ -87,3 +88,4 @@ export default function App() {
     </div>
   );
 }
+
